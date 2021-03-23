@@ -1,6 +1,6 @@
 {
   "name": "awesome_vue_gallery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, highly customisable responsive and customizable image and video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers.",
   "main": "dist/AwesomeVueGallery.common.js",
   "scripts": {
@@ -23,21 +23,20 @@
   "author": "Jebasuthan <itjebasuthan@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^3.7.1",
-    "cls-bluebird": "^2.1.0",
-    "core-js": "^3.1.2",
-    "hammerjs": "^2.0.8",
-    "video-thumbnail-url": "^1.0.1",
-    "vue": "^2.6.10",
-    "vue-lazyload": "^1.3.3"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
     "@vue/cli-plugin-eslint": "^4.0.0",
     "@vue/cli-service": "^4.0.0",
     "babel-eslint": "^10.0.1",
+    "bluebird": "^3.7.1",
+    "cls-bluebird": "^2.1.0",
+    "core-js": "^3.1.2",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "hammerjs": "^2.0.8",
+    "vue-lazyload": "^1.3.3",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {

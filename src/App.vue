@@ -34,45 +34,21 @@ export default {
           galleryType: "image"
         },
         {
+          src: "https://img.youtube.com/vi/JGwWNGJdvx8/mqdefault.jpg",
+          videoURL: "https://www.youtube.com/embed/JGwWNGJdvx8",
+          caption: "Video 1",
+          galleryType: "video",
+        },
+        {
           src: require("@/assets/images/slide02.jpg"),
           caption: "Slide02",
           galleryType: "image"
         },
         {
-          src: require("@/assets/images/slide03.jpg"),
-          caption: "Slide03",
-          galleryType: "image"
-        },
-        {
-          src: require("@/assets/images/slide04.jpg"),
-          caption: "Slide04",
-          galleryType: "image"
-        },
-        {
-          src: require("@/assets/images/slide05.jpg"),
-          caption: "",
-          galleryType: "image"
-        },
-        {
-          src: require("@/assets/images/slide06.jpg"),
-          caption: "",
-          galleryType: "image"
-        },
-        {
-          src: require("@/assets/images/slide07.jpg"),
-          caption: "",
-          galleryType: "image"
-        },
-        {
-          src: require("@/assets/images/slide08.jpg"),
-          caption: "",
-          galleryType: "image"
-        },
-        {
-          src: require("@/assets/images/slide01.jpg"), // thumbnail of video
+          src: "https://user-images.githubusercontent.com/3702438/112178912-2acf4180-8c20-11eb-8700-385274d70357.jpg",
           videoURL: "https://www.youtube.com/embed/Z3aZABXrAeI",
-          caption: "",
-          galleryType: "video"
+          caption: "Video 2",
+          galleryType: "video",
         }
       ]);
     },
