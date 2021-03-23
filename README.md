@@ -1,4 +1,4 @@
-# VueJS Image and Video Gallery
+# Vue Image and Video Gallery
 A simple, highly customisable responsive and customizable image and video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers.
 
 ## Installing
@@ -106,6 +106,20 @@ methods: {
 }
 ```
 
+Step 6: Add styles to the component
+```
+<style>
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+li img {
+  height: 100px;
+}
+</style>
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
@@ -114,6 +128,7 @@ npm run serve
 ![Vue Gallery](https://user-images.githubusercontent.com/3702438/112180262-661e4000-8c21-11eb-8e1c-33a42e605c09.jpg)
 
 # Demo
+[DEMO](https://codesandbox.io/s/pedantic-sutherland-w1nxp)
 
 ### Compiles and minifies for production
 ```
