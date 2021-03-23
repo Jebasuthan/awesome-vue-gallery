@@ -6,6 +6,50 @@ A simple, highly customisable responsive and customizable image and video galler
 npm install --save awesome_vue_gallery vue-lazyload
 ```
 
+## Options
+ 
+ <table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>images</td>
+<td>Array</td>
+<td>Required.</td>
+<td>List of image and video object.  <br /> Ex. Image object is <code>{
+          src: 'https://user-images.githubusercontent.com/3702438/112178066-7f25f180-8c1f-11eb-9821-7ad6cb7653ad.jpg',
+          caption: "Image 1",
+          galleryType: 'image'
+        }</code> <br />
+  Ex. Video object is <code>{
+          src: 'https://img.youtube.com/vi/JGwWNGJdvx8/mqdefault.jpg',
+          videoURL: 'https://www.youtube.com/embed/JGwWNGJdvx8',
+          caption: "Video 1",
+          galleryType: 'video'
+  },</code> <br />
+  </td>
+</tr>
+<tr>
+<td>showCaption</td>
+<td>Boolean</td>
+<td>Optional.</td>
+<td>Default value is <code>false</code>.</td>
+</tr>
+<tr>
+<td>showImageBox</td>
+<td>Boolean</td>
+<td>Optional.</td>
+<td>By default display with full details image box. Default value is <code>true</code>.</td>
+ </tr>
+</tbody>
+</table>
+
 # Usage
 Step 1: Import vue-lazyload in your project At your entry point in `main.js`
 ```
