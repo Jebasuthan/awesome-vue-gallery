@@ -46,9 +46,10 @@ data() {
           galleryType: 'image'
         },
         {
-          src: 'https://user-images.githubusercontent.com/3702438/112178105-864cff80-8c1f-11eb-83d1-9581078cdf8e.jpg',
-          caption: "Image 4",
-          galleryType: 'image'
+          src: 'https://img.youtube.com/vi/JGwWNGJdvx8/mqdefault.jpg',
+          videoURL: 'https://www.youtube.com/embed/JGwWNGJdvx8',
+          caption: "Video 1",
+          galleryType: 'video'
         },
         {
           src: 'https://user-images.githubusercontent.com/3702438/112178106-864cff80-8c1f-11eb-874b-e8a814a48cea.jpg',
@@ -73,7 +74,7 @@ data() {
         {
           src: 'https://user-images.githubusercontent.com/3702438/112178912-2acf4180-8c20-11eb-8700-385274d70357.jpg',
           videoURL: 'https://www.youtube.com/embed/Z3aZABXrAeI',
-          caption: "",
+          caption: "Video 2",
           galleryType: 'video'
         }
       ],
