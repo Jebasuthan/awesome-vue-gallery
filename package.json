@@ -1,15 +1,35 @@
 {
   "name": "awesome_vue_gallery",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A simple, highly customisable responsive and customizable image and video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers.",
+  "main": "dist/AwesomeVueGallery.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --inline-vue --name AwesomeVueGallery ./src/components/*.vue",
     "lint": "vue-cli-service lint"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "gallery",
+    "vue gallery",
+    "vue image",
+    "vue video",
+    "vue.js",
+    "vue 2"
+  ],
+  "author": "Jebasuthan <itjebasuthan@gmail.com>",
+  "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.7.1",
+    "cls-bluebird": "^2.1.0",
     "core-js": "^3.1.2",
-    "vue": "^2.6.10"
+    "hammerjs": "^2.0.8",
+    "video-thumbnail-url": "^1.0.1",
+    "vue": "^2.6.10",
+    "vue-lazyload": "^1.3.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
@@ -19,5 +39,24 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
   }
 }
