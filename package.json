@@ -57,5 +57,9 @@
     "plugins": {
       "autoprefixer": {}
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jebasuthan/awesome-vue-gallery"
   }
 }
