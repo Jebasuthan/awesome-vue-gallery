@@ -46,8 +46,7 @@ npm install --save awesome_vue_gallery vue-lazyload
 <td>Boolean</td>
 <td>Optional.</td>
 <td>By default display with full details image box. Default value is <code>true</code>.</td>
-</tr>
-<tr>
+ </tr>
 </tbody>
 </table>
 
