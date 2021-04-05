@@ -172,8 +172,8 @@ npm run serve
 # Screenshot
 ![Vue Gallery](https://user-images.githubusercontent.com/3702438/112180262-661e4000-8c21-11eb-8e1c-33a42e605c09.jpg)
 
-# Demo
-[DEMO](https://codesandbox.io/s/pedantic-sutherland-w1nxp)
+
+## <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉</g-emoji>[DEMO LINK](https://codesandbox.io/s/pedantic-sutherland-w1nxp)<g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉</g-emoji>
 
 ### Compiles and minifies for production
 ```
